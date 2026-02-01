@@ -1,6 +1,6 @@
 # Twitter API credentials
-# Replace the placeholders below with your real keys from the Twitter Developer portal.
-# This file is in .gitignore and will not be committed.
+# Copy this file to twitter_keys.r and replace the placeholders with your keys.
+# twitter_keys.r is in .gitignore and will not be committed.
 
 library(twitteR)
 library(ROAuth)

@@ -1,1 +1,4 @@
 .httr-oauth
+
+# Twitter API credentials (never commit real keys)
+twitter_keys.r

@@ -32,7 +32,7 @@ The project has two main R scripts that:
 | **Paul_Roche_CS688_FinalProject.pptx** | Final project presentation (PowerPoint). |
 | **Roche_CS688_FinalProject.docx** | Final project report (Word). |
 | **LICENSE** | MIT License. |
-| **.gitignore** | Ignores `.httr-oauth` (OAuth cache). |
+| **.gitignore** | Ignores `.httr-oauth` (OAuth cache) and `twitter_keys.r` (API credentials). |
 
 ---
 
@@ -78,7 +78,7 @@ Common sources: [Hu and Liu sentiment word lists](https://www.cs.uic.edu/~liub/F
 ## How to Run
 
 1. **Set up R and install** the packages above.
-2. **Create `twitter_keys.r`** with your Twitter API credentials (see *Twitter API*).
+2. **Copy `twitter_keys.r.example` to `twitter_keys.r`** and add your Twitter API credentials (see *Twitter API*).
 3. **Obtain** `positive-words.txt` and `negative-words.txt` and place them in the project directory.
 4. **Set the working directory** in each script to your project folder (the scripts use `setwd(dir)` with a path you may need to change).
 5. **Run**:
